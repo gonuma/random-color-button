@@ -14,7 +14,7 @@ function changeColor() {
   let r = randomNumber();
   let g = randomNumber();
   let b = randomNumber();
-
+  console.log("This is function 1.");
   // console.log(r);
   // console.log(g);
   // console.log(b);
@@ -30,4 +30,5 @@ function changeColor2() {
   }
   console.log(`#${result.join("")}`);
   background.style.backgroundColor = `#${result.join("")}`;
+  console.log("This is function 2.");
 }
